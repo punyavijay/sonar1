@@ -17,6 +17,7 @@ public class Calculator {
 
     // ask users to enter numbers
     System.out.println("Enter first number");
+    System.out.println("Enter first number");
     number1 = input.nextDouble();
 
     System.out.println("Enter second number");
@@ -49,6 +50,7 @@ public class Calculator {
         break;
 
       default:
+        System.out.println("Invalid operator!");
         System.out.println("Invalid operator!");
         break;
     }
